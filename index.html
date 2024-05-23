@@ -68,8 +68,6 @@
                 #code {
                     font-size: 14px;
                 }
-
-                
             }
         </style>
 </head>
@@ -194,7 +192,7 @@
                     canvas.unbind("mousemove");
                     canvas.removeClass('hand');
                     // Play click sound
-                    // document.getElementById('click-audio').play();
+                    document.getElementById('click-audio').play();
                 }
             }).mousemove(function (e) {
                 var offset = canvas.offset(),
