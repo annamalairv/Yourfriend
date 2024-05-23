@@ -73,13 +73,13 @@
 </head>
     <body>
        <!-- Audio elements for click and hover sounds -->
-    <audio id="click-audio" src="./asset/simpplelove.mp3"></audio>
+    <audio id="click-audio" src="./asset/simpplelove.mp3"  ></audio>
     <!-- <audio id="hover-audio" src="./asset/simpplelove.mp3"></audio> -->
 
-    <audio id="background-music" autoplay loop controls style="display: none;">
+    <!-- <audio id="background-music" controls style="display: none;">
         <source src="./asset/simpplelove.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
-    </audio>
+    </audio> -->
         <div id="main">
             <div id="error">Trình duyệt của bạn không được hỗ trợ.</div>
              <div id="wrap">
@@ -98,7 +98,7 @@
 						<span class="say">please accept my  request pleaseee :*</span><br>
 						<span class="say"> </span><br>
                         <span class="say"><span class="space"></span> -- 미안해요🫰--</span><br/>
-						<span class="say" style="color:red;"><span class="space"></span>your Firend</span><br>
+						<span class="say" style="color:red;"><span class="space"></span>your Friend </span><br>
 			  </font></p>
       
 	  
@@ -192,7 +192,7 @@
                     canvas.unbind("mousemove");
                     canvas.removeClass('hand');
                     // Play click sound
-                    document.getElementById('click-audio').play();
+                    // document.getElementById('click-audio').play();
                 }
             }).mousemove(function (e) {
                 var offset = canvas.offset(),
